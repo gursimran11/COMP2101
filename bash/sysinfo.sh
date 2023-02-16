@@ -2,7 +2,7 @@
 echo "My second script"
 #sim1 is a variable for hostname
 sim1=$(hostname)
-#dat2 is a variable for fully qualified domain name(FQDN)
+#sim2 is a variable for fully qualified domain name(FQDN)
 sim2=$(hostname)
 sim3=$(hostnamectl | grep Operating)
 #sim4  is a variable which will provide the IP address of the host name and not the 127 one

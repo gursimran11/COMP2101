@@ -98,7 +98,7 @@ function Retrive-VideoController{
         [PSCustomObject]@{
             VENDOR = $RetrivedData.VideoProcessor
             DESCRIPTION = $RetrivedData.Description
-            RESOLUTION = "{0}x{1}" -f $RetrivedData.CurrentHorizontalResolution, $v.CurrentVerticalResolution
+            RESOLUTION = "{0}x{1}" -f $RetrivedData.CurrentHorizontalResolution, $RetrivedData.CurrentVerticalResolution
         }
     }
     $result | Format-List
